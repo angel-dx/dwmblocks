@@ -23,6 +23,7 @@ blocks.h:
 	cp blocks.def.h $@
 
 clean:
+	rm -f blocks.h
 	rm -f *.o *.gch dwmblocks
 
 install: dwmblocks
